@@ -42,11 +42,11 @@ class WeightedGraph {
 
   getAllVertices() {
     let result_list: any[] = [];
-    this.vertices_map.forEach((value, key, map) => {
+    this.vertices_map.forEach((_value, key, _map) => {
       result_list.push(key);
     });
     return result_list;
   }
 }
 
-export { WeightedGraph };
+module.exports.WeightedGraph = WeightedGraph;

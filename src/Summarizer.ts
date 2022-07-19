@@ -1,4 +1,3 @@
-import { require } from "../deps.ts";
 const Preprocesser = require("./Preprocesser").Preprocesser;
 
 class Summarizer {
@@ -120,4 +119,4 @@ class Summarizer {
     }
   }
 }
-export { Summarizer };
+module.exports.Summarizer = Summarizer;

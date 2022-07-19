@@ -4,7 +4,8 @@
   "description": "Text summarizer using Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc && denoify"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,13 @@
     "sbd": "^1.0.15",
     "natural": "^0.6.3",
     "wordpos": "^1.2.0"
+  },
+  "denoify": {
+    "ports": {
+      "sbd": "",
+      "natural": "",
+      "wordpos": ""
+    }
   },
   "devDependencies": {
     "@types/node": "^18.0.6",

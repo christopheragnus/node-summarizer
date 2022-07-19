@@ -1,4 +1,3 @@
-import { require } from "../deps.ts";
 const Summarizer = require("./Summarizer").Summarizer;
 const natural = require("natural");
 
@@ -109,4 +108,4 @@ class SummarizerManager {
   }
 }
 
-export { SummarizerManager };
+module.exports = SummarizerManager;

@@ -1,4 +1,3 @@
-import { require } from "../deps.ts";
 const WordPos = require("wordpos");
 const WeightedGraph = require("./WeightedGraph").WeightedGraph;
 const sbd = require("sbd");
@@ -211,4 +210,4 @@ class Preprocesser {
   }
 }
 
-export { Preprocesser };
+module.exports.Preprocesser = Preprocesser;
