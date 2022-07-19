@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist/",
+    "deno_dist/",
+    "src/**/*.deno.ts",
+    "src/**/*.deno.tsx"
+  ]
+}
