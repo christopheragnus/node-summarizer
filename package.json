@@ -11,13 +11,17 @@
     "url": "git+https://github.com/SwapnikKatkoori/Text-Summarizer.git"
   },
   "keywords": [
-    "text",
-    "summary",
-    "summarize",
-    "textrank",
+    "deno",
+    "deno-edition",
+    "deno-entry",
+    "denoland",
     "senitment",
+    "summarization",
+    "summarize",
     "summarizer",
-    "summarization"
+    "summary",
+    "text",
+    "textrank"
   ],
   "author": "Swapnik Katkoori <katkoor2@msu.edu>",
   "license": "ISC",
@@ -31,6 +35,9 @@
     "wordpos": "^1.2.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
     "jest": "^24.7.1"
   }
 }
